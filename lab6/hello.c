@@ -15,7 +15,7 @@ struct list_item {
 	ktime_t finish_time;
 };
 
-MODULE_AUTHOR("Ilkiv Maksym <ilkyv.maksym@gmail.com>");
+MODULE_AUTHOR("Mykolaienko Ivan <taurasilver9029@gmail.com>");
 MODULE_DESCRIPTION("Hello, world in Linux Kernel Training");
 MODULE_LICENSE("Dual BSD/GPL");
 MODULE_VERSION("3.0");
