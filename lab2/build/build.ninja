@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/equilibrium/dev/ak2-labs/lab2/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/TauruSSilver9029/dev/AK-2/lab2/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -45,7 +45,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/equilibrium/dev/ak2-labs/lab2/build && /usr/bin/cmake -S/home/equilibrium/dev/ak2-labs/lab2 -B/home/equilibrium/dev/ak2-labs/lab2/build
+  COMMAND = cd /home/TauruSSIlver9029/dev/AK-2/lab2/build && /usr/bin/cmake -S/home/equilibrium/dev/ak2-labs/lab2 -B/home/equilibrium/dev/ak2-labs/lab2/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -128,7 +128,7 @@ build calcLib: phony libcalcLib.a
 # =============================================================================
 
 #############################################
-# Folder: /home/equilibrium/dev/ak2-labs/lab2/build
+# Folder: /home/TauruSSilver9029/dev/AK-2s/lab2/build
 
 build all: phony libcalcLib.a calculator
 
